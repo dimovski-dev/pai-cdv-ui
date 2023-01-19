@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      dockerfile: ./Dockerfile
+    image: "dimovski/pai-cdv"
+    ports:
+      - "5173:5173"
